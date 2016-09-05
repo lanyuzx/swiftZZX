@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06F5A1A21D3F565200368FDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F5A1A11D3F565200368FDA /* AppDelegate.swift */; };
+		06F5A1A41D3F565200368FDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F5A1A31D3F565200368FDA /* ViewController.swift */; };
+		06F5A1A71D3F565200368FDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06F5A1A51D3F565200368FDA /* Main.storyboard */; };
+		06F5A1A91D3F565200368FDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06F5A1A81D3F565200368FDA /* Assets.xcassets */; };
+		06F5A1AC1D3F565200368FDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06F5A1AA1D3F565200368FDA /* LaunchScreen.storyboard */; };
+		06F5A1B71D3F565200368FDA /* ___________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F5A1B61D3F565200368FDA /* ___________Tests.swift */; };
+		06F5A1C21D3F565200368FDA /* ___________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F5A1C11D3F565200368FDA /* ___________UITests.swift */; };
+		06F5A1D01D3F566D00368FDA /* LLCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F5A1CF1D3F566D00368FDA /* LLCustomButton.swift */; };
+		06F5A1D21D3F592D00368FDA /* LLPopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F5A1D11D3F592D00368FDA /* LLPopController.swift */; };
+		06F5A1D41D3F5B2C00368FDA /* LLPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F5A1D31D3F5B2C00368FDA /* LLPresentationController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06F5A1B31D3F565200368FDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06F5A1961D3F565100368FDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06F5A19D1D3F565100368FDA;
+			remoteInfo = "仿新浪微博标题转场动画";
+		};
+		06F5A1BE1D3F565200368FDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06F5A1961D3F565100368FDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06F5A19D1D3F565100368FDA;
+			remoteInfo = "仿新浪微博标题转场动画";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06F5A19E1D3F565100368FDA /* 仿新浪微博标题转场动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "仿新浪微博标题转场动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06F5A1A11D3F565200368FDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		06F5A1A31D3F565200368FDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		06F5A1A61D3F565200368FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06F5A1A81D3F565200368FDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06F5A1AB1D3F565200368FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06F5A1AD1D3F565200368FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06F5A1B21D3F565200368FDA /* 仿新浪微博标题转场动画Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿新浪微博标题转场动画Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06F5A1B61D3F565200368FDA /* ___________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___________Tests.swift"; sourceTree = "<group>"; };
+		06F5A1B81D3F565200368FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06F5A1BD1D3F565200368FDA /* 仿新浪微博标题转场动画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿新浪微博标题转场动画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06F5A1C11D3F565200368FDA /* ___________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___________UITests.swift"; sourceTree = "<group>"; };
+		06F5A1C31D3F565200368FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06F5A1CF1D3F566D00368FDA /* LLCustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLCustomButton.swift; sourceTree = "<group>"; };
+		06F5A1D11D3F592D00368FDA /* LLPopController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLPopController.swift; sourceTree = "<group>"; };
+		06F5A1D31D3F5B2C00368FDA /* LLPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLPresentationController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06F5A19B1D3F565100368FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06F5A1AF1D3F565200368FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06F5A1BA1D3F565200368FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06F5A1951D3F565100368FDA = {
+			isa = PBXGroup;
+			children = (
+				06F5A1A01D3F565200368FDA /* 仿新浪微博标题转场动画 */,
+				06F5A1B51D3F565200368FDA /* 仿新浪微博标题转场动画Tests */,
+				06F5A1C01D3F565200368FDA /* 仿新浪微博标题转场动画UITests */,
+				06F5A19F1D3F565100368FDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06F5A19F1D3F565100368FDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06F5A19E1D3F565100368FDA /* 仿新浪微博标题转场动画.app */,
+				06F5A1B21D3F565200368FDA /* 仿新浪微博标题转场动画Tests.xctest */,
+				06F5A1BD1D3F565200368FDA /* 仿新浪微博标题转场动画UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06F5A1A01D3F565200368FDA /* 仿新浪微博标题转场动画 */ = {
+			isa = PBXGroup;
+			children = (
+				06F5A1A11D3F565200368FDA /* AppDelegate.swift */,
+				06F5A1A31D3F565200368FDA /* ViewController.swift */,
+				06F5A1CF1D3F566D00368FDA /* LLCustomButton.swift */,
+				06F5A1D11D3F592D00368FDA /* LLPopController.swift */,
+				06F5A1D31D3F5B2C00368FDA /* LLPresentationController.swift */,
+				06F5A1A51D3F565200368FDA /* Main.storyboard */,
+				06F5A1A81D3F565200368FDA /* Assets.xcassets */,
+				06F5A1AA1D3F565200368FDA /* LaunchScreen.storyboard */,
+				06F5A1AD1D3F565200368FDA /* Info.plist */,
+			);
+			path = "仿新浪微博标题转场动画";
+			sourceTree = "<group>";
+		};
+		06F5A1B51D3F565200368FDA /* 仿新浪微博标题转场动画Tests */ = {
+			isa = PBXGroup;
+			children = (
+				06F5A1B61D3F565200368FDA /* ___________Tests.swift */,
+				06F5A1B81D3F565200368FDA /* Info.plist */,
+			);
+			path = "仿新浪微博标题转场动画Tests";
+			sourceTree = "<group>";
+		};
+		06F5A1C01D3F565200368FDA /* 仿新浪微博标题转场动画UITests */ = {
+			isa = PBXGroup;
+			children = (
+				06F5A1C11D3F565200368FDA /* ___________UITests.swift */,
+				06F5A1C31D3F565200368FDA /* Info.plist */,
+			);
+			path = "仿新浪微博标题转场动画UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06F5A19D1D3F565100368FDA /* 仿新浪微博标题转场动画 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06F5A1C61D3F565200368FDA /* Build configuration list for PBXNativeTarget "仿新浪微博标题转场动画" */;
+			buildPhases = (
+				06F5A19A1D3F565100368FDA /* Sources */,
+				06F5A19B1D3F565100368FDA /* Frameworks */,
+				06F5A19C1D3F565100368FDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "仿新浪微博标题转场动画";
+			productName = "仿新浪微博标题转场动画";
+			productReference = 06F5A19E1D3F565100368FDA /* 仿新浪微博标题转场动画.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06F5A1B11D3F565200368FDA /* 仿新浪微博标题转场动画Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06F5A1C91D3F565200368FDA /* Build configuration list for PBXNativeTarget "仿新浪微博标题转场动画Tests" */;
+			buildPhases = (
+				06F5A1AE1D3F565200368FDA /* Sources */,
+				06F5A1AF1D3F565200368FDA /* Frameworks */,
+				06F5A1B01D3F565200368FDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06F5A1B41D3F565200368FDA /* PBXTargetDependency */,
+			);
+			name = "仿新浪微博标题转场动画Tests";
+			productName = "仿新浪微博标题转场动画Tests";
+			productReference = 06F5A1B21D3F565200368FDA /* 仿新浪微博标题转场动画Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		06F5A1BC1D3F565200368FDA /* 仿新浪微博标题转场动画UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06F5A1CC1D3F565200368FDA /* Build configuration list for PBXNativeTarget "仿新浪微博标题转场动画UITests" */;
+			buildPhases = (
+				06F5A1B91D3F565200368FDA /* Sources */,
+				06F5A1BA1D3F565200368FDA /* Frameworks */,
+				06F5A1BB1D3F565200368FDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06F5A1BF1D3F565200368FDA /* PBXTargetDependency */,
+			);
+			name = "仿新浪微博标题转场动画UITests";
+			productName = "仿新浪微博标题转场动画UITests";
+			productReference = 06F5A1BD1D3F565200368FDA /* 仿新浪微博标题转场动画UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06F5A1961D3F565100368FDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JYD;
+				TargetAttributes = {
+					06F5A19D1D3F565100368FDA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					06F5A1B11D3F565200368FDA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 06F5A19D1D3F565100368FDA;
+					};
+					06F5A1BC1D3F565200368FDA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 06F5A19D1D3F565100368FDA;
+					};
+				};
+			};
+			buildConfigurationList = 06F5A1991D3F565100368FDA /* Build configuration list for PBXProject "仿新浪微博标题转场动画" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06F5A1951D3F565100368FDA;
+			productRefGroup = 06F5A19F1D3F565100368FDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06F5A19D1D3F565100368FDA /* 仿新浪微博标题转场动画 */,
+				06F5A1B11D3F565200368FDA /* 仿新浪微博标题转场动画Tests */,
+				06F5A1BC1D3F565200368FDA /* 仿新浪微博标题转场动画UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06F5A19C1D3F565100368FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06F5A1AC1D3F565200368FDA /* LaunchScreen.storyboard in Resources */,
+				06F5A1A91D3F565200368FDA /* Assets.xcassets in Resources */,
+				06F5A1A71D3F565200368FDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06F5A1B01D3F565200368FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06F5A1BB1D3F565200368FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06F5A19A1D3F565100368FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06F5A1A41D3F565200368FDA /* ViewController.swift in Sources */,
+				06F5A1D41D3F5B2C00368FDA /* LLPresentationController.swift in Sources */,
+				06F5A1A21D3F565200368FDA /* AppDelegate.swift in Sources */,
+				06F5A1D01D3F566D00368FDA /* LLCustomButton.swift in Sources */,
+				06F5A1D21D3F592D00368FDA /* LLPopController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06F5A1AE1D3F565200368FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06F5A1B71D3F565200368FDA /* ___________Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06F5A1B91D3F565200368FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06F5A1C21D3F565200368FDA /* ___________UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06F5A1B41D3F565200368FDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06F5A19D1D3F565100368FDA /* 仿新浪微博标题转场动画 */;
+			targetProxy = 06F5A1B31D3F565200368FDA /* PBXContainerItemProxy */;
+		};
+		06F5A1BF1D3F565200368FDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06F5A19D1D3F565100368FDA /* 仿新浪微博标题转场动画 */;
+			targetProxy = 06F5A1BE1D3F565200368FDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06F5A1A51D3F565200368FDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06F5A1A61D3F565200368FDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06F5A1AA1D3F565200368FDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06F5A1AB1D3F565200368FDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06F5A1C41D3F565200368FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		06F5A1C51D3F565200368FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06F5A1C71D3F565200368FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "仿新浪微博标题转场动画/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jyd.-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		06F5A1C81D3F565200368FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "仿新浪微博标题转场动画/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jyd.-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		06F5A1CA1D3F565200368FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "仿新浪微博标题转场动画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jyd.-----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/仿新浪微博标题转场动画.app/仿新浪微博标题转场动画";
+			};
+			name = Debug;
+		};
+		06F5A1CB1D3F565200368FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "仿新浪微博标题转场动画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jyd.-----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/仿新浪微博标题转场动画.app/仿新浪微博标题转场动画";
+			};
+			name = Release;
+		};
+		06F5A1CD1D3F565200368FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "仿新浪微博标题转场动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jyd.-----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "仿新浪微博标题转场动画";
+			};
+			name = Debug;
+		};
+		06F5A1CE1D3F565200368FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "仿新浪微博标题转场动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jyd.-----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "仿新浪微博标题转场动画";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06F5A1991D3F565100368FDA /* Build configuration list for PBXProject "仿新浪微博标题转场动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06F5A1C41D3F565200368FDA /* Debug */,
+				06F5A1C51D3F565200368FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06F5A1C61D3F565200368FDA /* Build configuration list for PBXNativeTarget "仿新浪微博标题转场动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06F5A1C71D3F565200368FDA /* Debug */,
+				06F5A1C81D3F565200368FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06F5A1C91D3F565200368FDA /* Build configuration list for PBXNativeTarget "仿新浪微博标题转场动画Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06F5A1CA1D3F565200368FDA /* Debug */,
+				06F5A1CB1D3F565200368FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06F5A1CC1D3F565200368FDA /* Build configuration list for PBXNativeTarget "仿新浪微博标题转场动画UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06F5A1CD1D3F565200368FDA /* Debug */,
+				06F5A1CE1D3F565200368FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06F5A1961D3F565100368FDA /* Project object */;
+}
